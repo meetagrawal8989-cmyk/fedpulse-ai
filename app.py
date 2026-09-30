@@ -540,7 +540,7 @@ if module_choice == "🚨 1. Real-Time PHC Command Center":
             height=380
         )
         fig_map.update_layout(
-            mapbox_style="carto-darkmatter",
+            map_style="carto-darkmatter",
             margin={"r":0,"t":0,"l":0,"b":0},
             paper_bgcolor="#1e293b",
             plot_bgcolor="#1e293b"
