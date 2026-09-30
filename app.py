@@ -527,7 +527,7 @@ if module_choice == "🚨 1. Real-Time PHC Command Center":
         map_df['Risk Status'] = risk_labels
         map_df['Marker Color'] = color_scales
 
-        fig_map = px.scatter_mapbox(
+        fig_map = px.scatter_map(
             map_df,
             lat="lat",
             lon="lng",
